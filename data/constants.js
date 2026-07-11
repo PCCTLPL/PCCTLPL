@@ -2,7 +2,35 @@ export const servicesList = [
   { id: 1, title: "Car Transportation", icon: "🚗" },
   { id: 2, title: "Door-to-Door Delivery", icon: "🏠" },
   { id: 3, title: "Insurance Coverage", icon: "🛡️" },
-  // Aise hi aap 30+ services yahan add kar sakte hain
+  { id: 4, title: "Real-time GPS Tracking", icon: "🛰️" },
+  { id: 5, title: "Luxury Car Handling", icon: "💎" },
+  { id: 6, title: "Open Trailer Transport", icon: "🚛" },
+  { id: 7, title: "Closed Container Shipping", icon: "📦" },
+  { id: 8, title: "Bike Transportation", icon: "🏍️" },
+  { id: 9, title: "Corporate Relocation", icon: "🏢" },
+  { id: 10, title: "Household Shifting", icon: "🏠" },
+  { id: 11, title: "Commercial Vehicle Transport", icon: "🚚" },
+  { id: 12, title: "International Car Shipping", icon: "🌐" },
+  { id: 13, title: "Express Delivery Service", icon: "⚡" },
+  { id: 14, title: "Warehousing Solutions", icon: "🏭" },
+  { id: 15, title: "Vehicle Storage Facility", icon: "🅿️" },
+  { id: 16, title: "Interstate Car Carriers", icon: "🛣️" },
+  { id: 17, title: "Event Vehicle Transport", icon: "🎯" },
+  { id: 18, title: "Emergency Towing Support", icon: "🛠️" },
+  { id: 19, title: "Fleet Management", icon: "📋" },
+  { id: 20, title: "Customized Logistics", icon: "🛠️" },
+  { id: 21, title: "Import/Export Customs", icon: "🛂" },
+  { id: 22, title: "Packing and Unpacking", icon: "🧳" },
+  { id: 23, title: "Vehicle Inspection", icon: "🔍" },
+  { id: 24, title: "Heavy Machinery Transport", icon: "🏗️" },
+  { id: 25, title: "Two-Wheeler Relocation", icon: "🛵" },
+  { id: 26, title: "Same-Day Delivery", icon: "🕒" },
+  { id: 27, title: "Bulk Cargo Shipping", icon: "🚢" },
+  { id: 28, title: "Pet Transportation", icon: "🐾" },
+  { id: 29, title: "Piano/Art Moving", icon: "🎹" },
+  { id: 30, title: "24/7 Customer Support", icon: "🎧" },
+  { id: 31, title: "Verified Professional Drivers", icon: "👨‍✈️" },
+  { id: 32, title: "Safety Protocol Audit", icon: "✅" }
 ];
 
-export const popularCities = ["Delhi", "Gurgaon", "Mumbai", "Bangalore", "Pune", "Chennai", "Hyderabad", "Kolkata"];
+export const popularCities = ["Delhi", "Gurgaon", "Mumbai", "Bangalore", "Pune", "Chennai", "Hyderabad", "Kolkata", "Ahmedabad", "Jaipur", "Chandigarh"];
