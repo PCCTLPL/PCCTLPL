@@ -1,18 +1,18 @@
-import Navbar from './components/Layout/Navbar';
-import Hero from './components/Sections/Hero';
-import Services from './components/Sections/Services';
-import Contact from './components/Sections/Contact';
-import Footer from './components/Layout/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="bg-luxury-gradient min-h-screen text-white">
+    <Router>
       <Navbar />
-      <Hero />
-      <Services />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
-export default App;
